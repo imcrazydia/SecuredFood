@@ -24,6 +24,20 @@
   </div> 
 </div>
 
+<div class="header">
+    <img class="header__image" src="img/steak.jpg" alt="header image">
+    <div class="header__image-div"></div>
+</div>
+
+<div class="category">
+<span class="category-item active">All</span> 
+<span class="category-item">Hamburgers</span> 
+<span class="category-item">Fish</span> 
+<span class="category-item">Chinese</span> 
+<span class="category-item">Mexican</span> 
+<span class="category-item">Italia</span>
+</div>
+
   </div>
 </div>
 
