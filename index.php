@@ -38,6 +38,9 @@
 <span class="category-item">Italia</span>
 </div>
 
+<div class="meal-item">
+</div>
+    
   </div>
 </div>
 
