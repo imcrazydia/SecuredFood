@@ -10,12 +10,12 @@ include 'navbar.php';
 </div>
 
 <div class="category">
-<span class="category-item active">All</span> 
-<span class="category-item">Hamburgers</span> 
-<span class="category-item">Fish</span> 
-<span class="category-item">Chinese</span> 
-<span class="category-item">Mexican</span> 
-<span class="category-item">It</span>
+<a href="#" class="category-item active">All</a> 
+<a href="#" class="category-item">Hamburgers</a> 
+<a href="#" class="category-item">Fish</a> 
+<a href="#" class="category-item">Chinese</a> 
+<a href="#" class="category-item">Mexican</a> 
+<a href="#" class="category-item">Italian</a>
 </div>
 
 <div class="meal-item">

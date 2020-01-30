@@ -26,19 +26,22 @@
 
   .category {
       background-color: #DEF2F1;
-      width: 97%;
-      margin-top: -3px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      cursor: default;
+      width: 100%;
+      overflow: auto;
+      white-space: nowrap;
   }
 
   .category-item {
       color: rgb(121, 121, 121);
-      padding-left: 5px;
-      padding-right: 5px;
       cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+  }
+
+  .category-item:hover {
+      color: black;
   }
 
   .active {
