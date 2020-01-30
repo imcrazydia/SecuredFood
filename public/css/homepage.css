@@ -21,10 +21,11 @@
       opacity: 30%;
       width: 100%;
       height: 68%;
-      top: 12.3%;
+      top: 12.8%;
   }
 
   .category {
+      margin-top: -4px;
       background-color: #DEF2F1;
       width: 100%;
       overflow: auto;
