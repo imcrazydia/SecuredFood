@@ -1,76 +1,78 @@
 .navbar {
-    overflow: hidden;
-    background-color: #3AAFA9;
-  }
-  
-  .navbar__menu-item {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  overflow: hidden;
+  background-color: #3AAFA9;
+}
 
-  .navbar__menu-item__logo {
-      width: 50px;
-  }
+.navbar__menu-item {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .navbar__menu-item__menu-logo {
-    width: 50px;
+.navbar__menu-item__logo {
+  width: 50px;
+}
+
+.navbar__menu-item__menu-logo {
+  width: 50px;
 }
 
 .navbar__menu-item__search {
-    padding: 30px 8px 10px 8px;
-    border-bottom: solid 2px white;
+  padding: 30px 8px 10px 8px;
+  border-bottom: solid 2px white;
 }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-        color: rgba(255, 255, 255, 0.712);
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #3AAFA9;
-    width: 100%;
-    z-index: 1;
-    margin-left: -277px;
-    border-top: solid 1px white;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: right;
-    border-top: solid 1px white;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: rgb(31, 146, 140);
-    color: white;
-  }
-  
-  .show {
-    display: block;
-  }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3AAFA9;
+  width: 100%;
+  z-index: 1;
+  margin-left: -277px;
+  border-top: solid 1px white;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  border-top: solid 1px white;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(31, 146, 140);
+  color: white;
+}
+
+.show {
+  display: block;
+}
